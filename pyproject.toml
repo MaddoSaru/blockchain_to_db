@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "blockchain-to-db"
+version = "0.1.0"
+description = ""
+authors = ["MaddoSaru <riquelme.madmonkey@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+black = "^23.9.1"
+requests = "^2.31.0"
+blockchain = {git = "ssh://git@github.com/MaddoSaru/blockchain.git"}
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
