@@ -12,6 +12,8 @@ requests = "^2.31.0"
 blockchain = {git = "ssh://git@github.com/MaddoSaru/blockchain.git"}
 fastapi = "^0.103.1"
 uvicorn = "^0.23.2"
+mysql-connector-python = "^8.1.0"
+python-dotenv = "^1.0.0"
 
 
 [build-system]
